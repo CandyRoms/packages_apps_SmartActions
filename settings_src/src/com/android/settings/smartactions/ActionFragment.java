@@ -174,7 +174,7 @@ public class ActionFragment extends SettingsPreferenceFragment implements
         switch (dialogId) {
             case DIALOG_CATEGORY:
             case DIALOG_CUSTOM_ACTIONS:
-                return MetricsEvent.AQUA;
+                return MetricsEvent.CANDY;
             default:
                 return 0;
         }
@@ -280,6 +280,6 @@ public class ActionFragment extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AQUA;
+        return MetricsProto.MetricsEvent.CANDY;
     }
 }
